@@ -5,13 +5,13 @@ spring:
   cloud:
     config:
       server:
+        bootstrap: true
         git:
-          uri: https://github.com/tzumenicoz/ms-course-youtube.git
-          searchPath: config-data
+          uri: https://github.com/tzumenicoz/microservicios-example
+          searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
   security:
     user:
       name: root
       password: s3cr3t
-
