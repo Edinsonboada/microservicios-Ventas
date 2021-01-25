@@ -1,10 +1,10 @@
-package unmsm.sistemas.demo01;
+package academy.digitallab.store.admin;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Demo01ApplicationTests {
+class AdminServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
